@@ -1,0 +1,225 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid wheat;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    margin-left: 1rem;
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.add-second{
+    margin-left: 0.5rem;
+}
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 30px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+
+}
+.nav-search:hover{
+    border: 2px solid yellow;
+}
+.search-select{
+    width: 50px;
+    justify-content: center;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(222, 178, 59);
+    color: #0f1111;
+}
+/* box-4 */
+
+span{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-size:1rem ;
+    font-weight: 700;
+}
+.card i{
+    font-size: 2rem;
+}
+.card{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.pannel{
+    display: flex;
+    height: 50px;
+    background-color: #222f3d;
+    justify-content: space-around;
+    color: #cccccc;
+    /* text-align: center; */
+    align-items: center;
+}
+.pannel-all{
+    font-size: 1.5rem;
+}
+.pannel-order p{
+    display: inline;
+    margin-left: 15px;
+}
+.pannel-order{
+    font-size: 1.2rem;
+    width: 70%;
+}
+.pannel-deal{
+    /* font-size: 1.5rem;
+    font-weight: 900; */
+    background-image: url("Great\ indian.jpj.jpg");
+    background-size: cover;
+    height: 3rem
+}
+.hero-section{
+    background-image: url("hero.jpj.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+    background-color: #cccccc;
+    color: #0f1111;
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+
+}
+.hero-msg a{
+    color: #da340b;
+}
+/* shop-section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+
+}
+.box{
+    background-color: rgb(220, 210, 192);
+    /* border: 5px solid black; */
+    height: 500px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+.box-img{
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-container a{
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.footer-1{
+    background-color: #37475a;
+    height: 40px;
+    font-size: 1.2rem;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+ul a{
+    display: block;
+    font-size: 1.2rem;
+    color: #e2e7e6;
+    margin-top: 10px;
+
+}
+ul{
+    margin-top: 15px;
+}
+.footer-2 p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #dddddd;
+}
+.footer-3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid wheat;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log1{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
